@@ -1,0 +1,200 @@
+* { 
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+nav{
+    grid-area: nav;
+}
+ 
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    font-size: 16px;
+}
+/* ---------------------------------------- HEADER */ 
+
+.img{
+    width: 8rem;
+    
+    
+}
+
+.header-banner{
+    background-image: linear-gradient(to right, red , yellow);
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    padding: 4rem;
+}
+
+
+   
+
+/* ---------------------------------------- ESTILOS MENÚ */ 
+
+.header__navbar--principal{
+    padding: 1.2rem;
+    list-style: none;
+    
+}
+
+.header__navbar--principal li{
+    display: inline-block;
+   
+    
+}
+
+.header__navbar--principal a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size:  1rem;
+    font-weight: bold;
+    color: black;
+    margin-left: 2rem;
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.titulo p{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    color: black;
+}
+
+.form{
+    padding: .3rem;
+    padding-right: 10rem;
+    margin-top: 1rem;
+}
+
+.form-boton{
+    padding: .3rem;
+    padding-right: 1rem;
+    margin-top: 1rem;
+}
+
+
+/* ---------------------------------------- SECTION branding */
+
+.contenedor {
+	width: 90%;
+	max-width: 75em;
+	margin: 1.25em auto;
+	padding: 40px 0;
+/* flexbox
+    display: flex;
+    gap: 20px;*/
+
+	/*--- grid----*/
+    display: grid;
+    grid-template-columns: 3fr;
+    gap: 40px;
+}
+
+.titulo {
+	font-size: 24px;
+	padding: 20px 0;
+}
+
+.contenedor-logotipos {
+	width: 100%;
+
+/* Flexbox
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;*/
+
+/* --- Grid ---*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+
+
+    
+
+
+.card {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+
+   /* flexbox
+    width: calc(33.33% - 20px);*/
+	
+}
+
+
+
+/* ---------------------------------------- FOOTER */
+
+footer{
+    padding: 50px;
+    background-color: grey;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.footer__flex{
+    color: white;
+    justify-content: space-around;
+    display: flex;
+    
+}
+
+.footer__menu{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.footer_menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+
+}
+
+.icon{
+    font-size: .5rem;
+    color: white;
+}
+
+.footer__credito{
+    text-align: center;
+    padding: 5rem;
+    font-size: 0.9rem;
+}
+
+
+
+@media screen and (max-width: 900px) {
+	
+}
+
+@media screen and (max-width: 700px) {
+	
+}
+
+@media screen and (max-width: 600px) {
+
+}

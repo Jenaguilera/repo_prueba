@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=form, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend> Formulario de Consulta </legend>
+                <label for="name">Nombre</label>
+                <input type="text" name="name" placeholder="Ingresa tu nombre" required>
+            <br>
+                <label for="">Apellido</label>
+                <input type="text" name="apellido" placeholder="Ingresa tu apellido" required>
+            <br>
+                <label for="">Talla</label>
+            <br>
+            <select name="talla" id="">
+                <option value="Selecciona tu talla"></option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+            </select>
+        <br>
+        <br>
+        <label for="país">País</label>
+        <div>Argentina</div>
+        <input type="radio" name="pais" value="argentina" checked="checked">
+        <div>Uruguay</div>
+        <input type="radio" name="pais" value="uruguay">
+        <div>Otro</div>
+        <input type="radio" name="pais" value="Otro">
+
+        <br>
+        <label for="consulta">Escribe tu consulta</label>
+        <br>
+        <textarea name="consulta" id="" cols="30" rows="10" maxlength="500"></textarea>
+
+        <div>Artículos</div>
+        <input type="checkbox" name="cbox1"> Películas
+        <input type="checkbox" name="cbox2"> Libros
+        <input type="checkbox" name="cbox3"> Revistas
+
+        <input type="submit" value="Envía tu consulta">
+        <input type="reset" value="Limpiar formulario">
+        <input type="button" value="No hago nada">
+
+
+
+
+        </fieldset>
+    </form>
+</body>
+</html>

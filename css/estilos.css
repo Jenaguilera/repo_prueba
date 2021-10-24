@@ -1,0 +1,188 @@
+* { 
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+/* ---------------------------------------- HEADER */ 
+
+.img{
+    width: 8rem;
+    
+    
+}
+
+.header-banner{
+    background-image: url(/img/computadora2.jpg);
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    padding: 4rem;
+}
+
+/* ---------------------------------------- ESTILOS MENÚ */ 
+
+.header__navbar--principal{
+    padding: 1.2rem;
+    list-style: none;
+    
+}
+
+.header__navbar--principal li{
+    display: inline-block;
+    
+}
+
+.header__navbar--principal a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size:  1rem;
+    font-weight: bold;
+    color: black;
+    margin-left: 2rem;
+}
+
+.titulo p{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    color: black;
+}
+
+.form{
+    padding: .3rem;
+    padding-right: 10rem;
+    margin-top: 1rem;
+}
+
+.form-boton{
+    padding: .3rem;
+    padding-right: 1rem;
+    margin-top: 1rem;
+}
+
+/* ---------------------------------------- SECTION SERVICIOS / TABLA */
+
+.servicios {
+    background-color: white;
+}
+
+.titulo-servicios {
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    color: black;
+}
+  
+.servicios p{
+    padding: 4rem;
+    line-height: 1.4rem;
+    color: black;
+}
+
+/* ---------------------------------------- SECTION PORTAFOLIO */
+
+.portafolio {
+    background-color: grey;
+    padding: 4rem;
+    display: inline-block;
+    
+}
+.titulo-portafolio {
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+/* ---------------------------------------- SECTION TESTIMONIOS */
+
+.flex-container{
+    display: flex;
+    background-color: white;
+    padding: 50px;
+    flex-direction: row;
+    justify-content: center;
+    flex: center;
+}
+
+.flex-container div{
+    background-color: grey;
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+
+.testimonios {
+    background-color: white;
+    padding: 4rem;
+    color: white;
+    
+}
+.titulo-testimonios {
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    color: black;
+}
+
+.testimonios p{
+    font-style: italic;
+    color: white;
+    text-align: center;
+
+}
+    
+.img-testimonios {
+    height: 15rem;
+    
+}
+
+/* ---------------------------------------- FOOTER */
+
+footer{
+    padding: 50px;
+    background-color: grey;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.footer__flex{
+    justify-content: space-around;
+    display: flex;
+    color: white;
+}
+
+.footer__menu{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.footer_menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+
+}
+
+.icon{
+    font-size: .5rem;
+    color: white;
+}
+
+.footer__credito{
+    text-align: center;
+    padding: 5rem;
+    font-size: 0.9rem;
+}
