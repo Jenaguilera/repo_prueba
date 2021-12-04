@@ -1,0 +1,39 @@
+footer {
+    background-color: $color-grey-900;
+
+    p {
+        color: $color-grey-400;
+    }
+    h3 {
+        color: $color-grey-600;
+        font-family: 'Montserrat', sans-serif;
+        font-size: $font-xs;
+    }
+
+    .nav {
+        .nav-item .nav-link {
+            color: $color-grey-400;
+            font-size: $font-xxs;
+            padding: $space-xxs $space-xs;
+
+            &:hover {
+                color: $color-grey-200;
+            }
+        }
+        &.footer__social {
+            margin-left: -$space-xs;
+            padding-top: $space-sm;
+
+            .nav-item {
+                .nav-link {
+                    font-size: $font-md;
+                }
+            }
+        }
+    }
+
+    .footer__credito {
+        text-align: center;
+        margin-top: $space-md;
+    }
+}

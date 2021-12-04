@@ -1,19 +1,28 @@
 {
-  "name": "bst",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Jenaguilera/repo_prueba.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Jenaguilera/repo_prueba/issues"
-  },
-  "homepage": "https://github.com/Jenaguilera/repo_prueba#readme"
+    "name": "bst",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass:build": "node process-sass.js",
+        "sass": "node-sass --source-map true --output-style expanded -rw ./scss -o ./css",
+        "serve": "node server.js",
+        "start": "npm run sass:build&&npm run serve"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Jenaguilera/repo_prueba.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Jenaguilera/repo_prueba/issues"
+    },
+    "homepage": "https://github.com/Jenaguilera/repo_prueba#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "express": "^4.17.1",
+        "node-sass": "^6.0.1"
+    }
 }

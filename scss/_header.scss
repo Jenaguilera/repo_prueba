@@ -1,0 +1,49 @@
+#branding {
+    .header-banner {
+      background-image: url(/img/branding-online_BANNER.jpg);
+    }
+  }
+
+#ilustraciones {
+    .header-banner {
+      background-image: url(/img/ilustracion_3.png);
+    }
+  }  
+
+#disenoUxUi {
+    .header-banner {
+      background-image: url(/img/banner_disenouxui.png);
+    }
+  } 
+
+#webdesign {
+    .header-banner {
+      background-image: url(/img/webdesign_banner.jpg);
+    }
+  } 
+
+.header-banner {
+    background: url(/img/computadora2.jpg) no-repeat 50% 50% $color-grey-400;
+    background-size: cover;
+    padding: $space-xl 0;
+
+    .row {
+        padding: $space-md 0;
+
+        h1 {
+            color: $color-white;
+            font-family: 'Montserrat', sans-serif;
+            font-size: $font-lg;
+            font-weight: bold;
+            line-height: 1.4;
+            padding: $space-md 0 $space-sm;
+        }
+        p {
+            color: $color-white;
+            font-size: $font-xs;
+            margin-bottom: $space-md;
+        }
+        
+          }
+        
+    }

@@ -1,84 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ilustraciones</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/grid.css">
-</head>
-<body>
- <!-- Menú,imagen branding -->
- <header class="header-banner" >
-    <div>
-        <nav class="header__navbar">
-            <a name="inicio"></a>
-            <ul class="header__navbar--principal">
-                <a href="index.html"><img class="img" src="/img/logoJen.svg" alt="Logo Jenaguilera"></a>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#portafolio">Portafolio</a></li>
-                <li><a href="#testimonios">Testimonios</a></li>
-                <li><a href="Contacto.html" target="_blank">Contacto</a></li>
-            </ul>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+            name="description"
+            content="Profesional en el desarrollo, diseño de branding, diseño de experiencia de usuario y diseño de interfaces."/>
+        <meta
+            name="keywords"
+            content="diseño, branding, ilustración, pagina web, diseño ux ui, diseño gráfico, colores, servicio de diseño, profesional"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Ilustraciones</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="/css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"
+        />
+    </head>
+
+    <body id="ilustraciones">
+        <!-- Menú, Logotipo y Bienvenida -->
+        <nav class="navbar navbar-expand-lg navbar-light navbar-nav-scroll header__navbar fixed-top">
+            <div class="container">
+                <div class="row w-100 align-items-center">
+                    <a
+                        class="navbar-brand col-auto me-auto"
+                        href="./index.html"
+                        id="inicio">
+                        <img
+                            class="img"
+                            src="/img/logoJen.svg"
+                            alt="Logo Jenaguilera"
+                        />
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse col-auto flex-grow-0"
+                        id="navbarSupportedContent"
+                    >
+                    <ul
+                    class="
+                        header__navbar--principal
+                        navbar-nav
+                        mb-2 mb-lg-0
+                        d-flex
+                        p-0
+                    "
+                >
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./branding.html"
+                        >Branding</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./ilustraciones.html"
+                        >Ilustraciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./disenouxui.html"
+                        >Diseño UX/UI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./webdesign.html"
+                       >Web design</a>
+                </li>
+                </ul>
+                    </div>
+                </div>
+            </div>
         </nav>
-</header>
-
-<!-- inicio de imagenes de branding -->
-<div class="contenedor">
-    <div class="contenedor-logotipos">
-        <div class="card" style="background-image: url('./img/antojomexa1.jpg')"></div>
-        <div class="card" style="background-image: url('./img/antojomexa2.jpg')"></div>
-        <div class="card" style="background-image: url('./img/antojomexa3.jpg')"></div>
-
-        <div class="card" style="background-image: url('./img/beeyum1.jpg')"></div>
-        <div class="card" style="background-image: url('./img/beeyum2.jpg')"></div>
-        <div class="card" style="background-image: url('./img/beeyum3.jpg')"></div>
-    </div>
-
-
-    
-    <!--Footer-->
-    <footer>
-        <!-- Caja de suscripción Mapa de Sitio y Redes Sociales-->
-        <div class="footer__flex">
-            <div>
-                <h4>Nuestro Sitio</h4>
-                <ul class="footer__menu">
-                    <li><a href="#"> Home</a></li>
-                    <li><a href="#"> Home</a></li>
-                    <li><a href="#"> Home</a></li>
-                    <li><a href="#"> Home</a></li>
-                    <li><a href="#"> Home</a></li>
-                </ul>
+        <header class="seccion header-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Ilustraciones</h1>
+                    </div>
+                </div>
             </div>
+        </header>
 
-            <div>
-                <h4>Redes Sociales</h4>
-                <ul class="footer__menu">
-                    <li><a href="https://www.instagram.com/jenaguilera_designer/" target="_blank">Instagram</a></li>
-                    <li><a href="https://www.instagram.com/jenaguilera_designer/" target="_blank">Instagram</a></li>
-                    <li><a href="https://www.instagram.com/jenaguilera_designer/" target="_blank">Instagram</a></li>
-                </ul>
-            </div>
 
-            <div>
-                <h4>Ubicación</h4>
-                <ul class="footer__menu">
-                    <li><a href="#"> Home</a></li>
-                    <li><a href="#"> Home</a></li>
-                    <li><a href="#"> Home</a></li>
-                    <li><a href="#"> Home</a></li>
-                    <li><a href="#"> Home</a></li>
-                 </ul>
+        <!-- inicio de imagenes de branding -->
+        <section class="seccion container" id="portafolio">
+            <h2>Ilustraciones que hacen distinci&oacute;n a tus diseños</h2>
+            <div class="row">
+                <a class="col-12" >
+                    <img src="/img/ilustracion_1.png" alt="Ilustración de Granja" />
+                </a>
+                <a class="col-xs-12 col-md-6 col-lg-4" >
+                    <img src="/img/ilustracion_2.png" alt="Ilustración de un sol" />
+                </a>
+                <a class="col-xs-12 col-md-4 col-lg-8" >
+                    <img src="/img/ilustracion_4.png" alt="Ilustración de transporte de personal" />
+                </a>
             </div>
-        </div>
-        <div>
-            <div class="footer__credito">Desarrollado por Jennifer Aguilera</div>
-        </div>
-    </footer>
-</body>
+        </section>
+
+        <!--Footer-->
+        <footer class="seccion chica">
+            <!-- Caja de suscripción Mapa de Sitio y Redes Sociales-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a
+                                    class="navbar-brand col-auto me-auto"
+                                    href="./index.html"
+                                >
+                                    <img
+                                        class="img"
+                                        src="/img/logoJen.svg"
+                                        alt="Logo Jenaguilera"
+                                    />
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <h3>Nuestro Sitio</h3>
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./index.html"
+                                            >Servicios</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./index.html"
+                                            >Portafolio</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./index.html"
+                                            >Testimonios</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link"
+                                            href="./contacto.html"
+                                            target="_blank"
+                                            >Contacto</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <h3>Ubicaci&oacute;n</h3>
+                                <p>Monterrey, Nuevo Le&oacute;n, M&eacute;xico</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row align-items-center h-100">
+                            <div class="col">
+                                <p>Subscribete a mi website</p>
+                                <form>
+                                    <div
+                                        class="btn-toolbar"
+                                        role="toolbar"
+                                        aria-label="Toolbar with button groups"
+                                    ></div>
+                                    <div class="input-group input-group-sm">
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            placeholder="Email"
+                                            aria-label="Email"
+                                            aria-describedby="btnGroupEmail"
+                                            required
+                                        />
+                                        <button
+                                            class="btn btn-secondary"
+                                            type="submit"
+                                        >
+                                            Subscribir
+                                        </button>
+                                    </div>
+                                </form>
+                                <ul class="nav footer__social">
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link"
+                                            href="https://www.facebook.com/jennifer.aguilera.54"
+                                            target="_blank"
+                                        >
+                                            <i
+                                                class="fab fa-facebook-square"
+                                            ></i>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link"
+                                            href="https://www.instagram.com/jenaguilera_designer"
+                                            target="_blank"
+                                        >
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link"
+                                            href="https://twitter.com/jenaguilera_"
+                                            target="_blank"
+                                        >
+                                            <i
+                                                class="fab fa-twitter-square"
+                                            ></i>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link"
+                                            href="https://www.youtube.com/channel/UCreFVEWeApXfWleynXHE3BQ"
+                                            target="_blank"
+                                        >
+                                            <i class="fab fa-youtube"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 footer__credito">
+                        Desarrollado por Jennifer Aguilera
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"
+        ></script>
+        <script src="./js/index.js"></script>
 </html>

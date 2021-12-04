@@ -1,0 +1,29 @@
+.header__navbar {
+    background-color: $color-grey-100;
+    opacity: 1;
+    transition: 0.5s;
+
+    &.stuck {
+        background-color: transparent;
+        opacity: 0.5;
+
+        &:hover {
+            background-color: $color-grey-100;
+            opacity: 1;
+        }
+    }
+
+    .navbar-nav a.nav-link {
+        text-decoration: none;
+        text-transform: initial;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        color: $color-grey-900;
+        margin-left: 2rem;
+
+        &:hover {
+            color: $color-accent;
+        }
+    }
+}
